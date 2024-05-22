@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+
+}
+
+.-login-box{
+    display: flex;
+    justify-content: center;
+
+    border: 15px salmon;
+
+
+}
+
+.-login-box-inner{
+    width: 300px;
+
+}
+.-login-box-span{
+    background: #394ea1;
+    display: block;
+
+}
+.-input-div{
+    width: 100px;
+    margin-left: 100px;
+}
+
+#header-text{
+    margin-left: 100px;
+}
