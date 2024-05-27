@@ -6,6 +6,6 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <welcome-file-list>
-    <welcome-file>views/admin.html</welcome-file>
+    <welcome-file>admin.html</welcome-file>
   </welcome-file-list>
 </web-app>

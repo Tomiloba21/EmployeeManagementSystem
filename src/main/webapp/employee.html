@@ -4,65 +4,86 @@
   <meta charset="UTF-8">
   <title>::Employee Registration</title>
   <link rel="stylesheet" type="text/css" href="stylo.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
-<div class="-login-box">
-  <div class="-login-box-inner">
-            <span class="-login-box-span">
-            <h1 id="header-text">
-                LOGIN
-            </h1>
-        </span>
-    <form name="Registration form" method="post" action="register">
-      FirstName:
-      <label>
-        <input type="text" name="firstName">
-      </label>
-      <br><br>
+    <div class="drives">
+      <div class="drive">
+            <div class="-head">
+                <h2 class="heading-title">
+                    LOGIN
+                </h2>
+            </div>
+        <form name="Registration form" method="post" action="addEmployee">
 
-      LastName:
-      <label>
-        <input type="text" name="lastName">
-      </label>
-      <br><br>
-
-      Username:
-      <label>
-        <input type="text" name="userName">
-      </label>
-      <br><br>
-
-      Password:
-      <label>
-        <input type="password" name="password">
+          <label>
+            <input class="input-field"  type="text" name="firstName" placeholder="First Name">
+          </label>
+          <br><br>
 
 
-      </label>
-      <br><br>
-      country:
-      <label>
-        <input type="text" name="country">
-      </label>
+          <label>
+            <input class="input-field" type="text" name="lastName" placeholder="Last Name">
+          </label>
+          <br><br>
+
+
+          <label>
+            <input  class="input-field"  type="text" name="userName" placeholder="User Name">
+          </label>
+          <br><br>
+
+
+          <label>
+            <input class="input-field"  type="password" name="password" placeholder="Password">
+
+
+          </label>
+          <br><br>
+
+          <label>
+            Country:
+            <select name="country" class="input-field" >
+              <option value="Nigeria">Nigeria</option>
+              <option value="Germany">Germany</option>
+              <option value="India">India</option>
+              <option value="France">France</option>
+              <option value="Spain">Spain</option>
+              <option value="other">Other</option>
+            </select>
+
+          </label>
+
+<!--          <label>-->
+<!--            <input class="input-field"  type="text" name="country" placeholder="Country Name">-->
+<!--          </label>-->
 
 
 
-      <br><br>
+          <br><br>
 
-      <div >
-        <input class="-input-div" type="submit" value="save">
+          <div >
+            <input id="btn" type="submit" value="save">
+
+          </div>
+
+        </form>
+        <br><br>
+
+
 
       </div>
 
-    </form>
-    <br><br>
+      <br><br>
+      <div class="-heading">
+        <a href="getAllEmployees" >view all employees</a>
 
-    <a href="viewEmployees" >view all employees</a>
+      </div>
 
-  </div>
-</div>
+    </div>
 
 
-</body>
-</html>
+
+
 </body>
 </html>

@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans');
 
 * {
     margin: 0;
     padding: 0;
     color: darkslategrey;
-    font-family: 'Press Start 2P';
-
+    font-family: 'Droid Sans', sans-serif;
 }
 
+/* Additional specific styles */
+body {
+    font-family: 'Droid Sans', sans-serif;
+}
 
+h1, h2, h3 {
+    font-family: 'Tangerine', cursive;
+    color: aliceblue;
+}
+
+code, pre {
+    font-family: 'Inconsolata', monospace;
+}
 
 .-heading{
     margin: 2%;
@@ -23,7 +34,7 @@
 .drive{
     display: flex;
     justify-content: center;
-    /* margin: .2%; */
+
 
 }
 .well{
@@ -33,6 +44,9 @@
 }
 .word{
     color: brown;
+}
+.drives{
+    margin-top: 10vh;
 }
 
 #btn{
@@ -52,6 +66,7 @@
     width: 30vh;
     height: 5vh;
     padding: 1vh;
+    border-radius: 10px;
 
 
     background-color: beige;
